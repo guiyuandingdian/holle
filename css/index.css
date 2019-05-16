@@ -1,0 +1,261 @@
+@font-face {
+	font-family: 'VolvoBroadPro';
+	src: url(../fonts/VolvoBroadPro.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,
+body {
+	width: 100%;
+	background: #fff;
+	-webkit-text-size-adjust: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'VolvoBroadPro', 'Helvetica';
+	color: #666;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+	text-decoration: none;
+	outline: 0;
+}
+
+a {
+	color: currentColor;
+	transition: 0.2s ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: 0;
+}
+
+section {
+	display: block;
+}
+
+img {
+	width: 100%;
+	float: left;
+}
+
+
+/*封页*/
+.containerVolvo{
+	/*display: none;*/
+}
+.globalStyle {
+	width: 100%;
+	float: left;
+}
+
+.volvo_title {
+	width:94.75%;
+	padding: 20px 0 0;
+	margin-left:  5.25%;
+	overflow: hidden;
+}
+
+.volvo_title>div {
+	float: left;
+}
+
+.blackLine {
+	width: 94.75%;
+	height: 3px;
+	background: #000000;
+	margin: 15px 0 10px;
+	opacity: 0;
+}
+
+.titlePic {
+	width: 71.2%;
+	opacity: 0;
+}
+
+.webSite {
+	width: 30%;
+	opacity: 0;
+}
+
+.changeMonth {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 32%;
+	float: left;
+	opacity: 0;
+	margin-top:calc(100vw * 0.2);
+}
+
+#listMonth {
+	width: 100%;
+	position: relative;
+}
+
+.midContent {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1000;
+	background: #FFFFFF;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.midContent>img {
+	width: 33.33%;
+	float: right;
+}
+
+.midContent>section {
+	width: 66.67%;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.changeContent {
+	height: 220px;
+	position: relative;
+}
+
+.volvoContainer {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	float: left;
+}
+
+.coverPic {
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.coverPage {
+	background: #00f;
+	height: 100%;
+	float: left;
+}
+
+.volvo_content {
+	float: left;
+	overflow: hidden;
+	height: 500px;
+	margin-top: 20px;
+	position: relative;
+	transition: margin-left .5s;
+}
+
+.rightContainer {
+	position: absolute;
+	top: 0;
+	height: 500px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.listMonth{
+	text-align: right;
+	color: #000;
+	width:66.67%;
+	margin-right: 33.33%;
+	padding-right: 5px;
+	float: left;
+	text-align: right;
+	display: block;
+	letter-spacing: 3px;
+}
+.coverImg{
+	width: 100%;
+	float: left;
+	opacity: 0;
+	height: calc(100vw * 815/ 750);
+}
+.coverImg a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 0;
+	top:0;
+	display: none;
+}
+.coverMonth{
+	position: absolute;
+	left: 0;
+	bottom: 80px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	display: none;
+	
+}
+.coverPic{
+	float: left;
+	width: 68%;
+}
+.linnerBg{
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	opacity: 0.98;
+}
+.linnerBgx{
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+	left: 0;
+	bottom: 0;
+	opacity: 0.98;
+}
+.footerImg{
+	width: 36%;
+	margin:20px 32% 0;
+	float: left;
+	opacity: 0;
+}
+.footerImg a img{
+	display: block;
+	margin-bottom:10px;
+}
+.footerImg > img{
+	padding: 0 4.45%;
+	margin-bottom:20px;
+}
